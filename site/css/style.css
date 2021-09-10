@@ -1,0 +1,86 @@
+/*===========================*/
+/*  Basic setup    */
+/*===========================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ul li{
+    list-style-type: none;
+}
+
+/*===========================*/
+/*  Reusable component   */
+/*===========================*/
+
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/*===========================*/
+/*  Reusable component   */
+/*===========================*/
+header {
+    background:#2975d1;
+    height: 85vh;
+}
+
+/*  main-nav   */
+
+.main-nav{
+    float: right;
+    margin-top: 23px;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.main-nav li:first-child{
+    margin-left: 0px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: rgba(210, 215, 255, 0.68);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.main-nav li:hover a:link,
+.main-nav li:hover a:visited{
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.hero-text-box {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 30px;
+}
+.header-resume-section {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 30px;
+}
+p{
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 12px;
+}
